@@ -33,10 +33,11 @@
 
         img {
             display: block;
-            margin: 0 auto 20px;
-            width: 250px;
+            margin: 0 auto 30px;
+            width: 80%; /* Make the image take up more space */
+            max-width: 600px; /* Limit the maximum size for better control */
             border-radius: 15px;
-            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
         }
 
         .container {
@@ -148,7 +149,7 @@
 <body>
     <div class="container">
         <h1>변성훈의 붓꽃 감별기</h1>
-        <img src="../irispicture.png" alt="Iris Image">
+        <img src="../irispicture.png" alt="Iris Flower">
 
         <h2>붓꽃의 수치를 넣어 보세요</h2>
         <form class="form-horizontal" action="#">
