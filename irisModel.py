@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 import joblib
 from pydantic import BaseModel
